@@ -811,7 +811,7 @@
 
     (cond 
         ((string= val1 "true") (setq op1 t))
-        ((string= val1 "false") (setq op2 nil))
+        ((string= val1 "false") (setq op1 nil))
     )
 
     (setq res (not op1))
